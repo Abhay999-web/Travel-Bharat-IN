@@ -7,7 +7,7 @@ const cors = require("cors")
 const app = express()
 
 app.use(cors({
-    origin:  "http://localhost:5173",
+    origin:  "https://travel-bharat-in-1.onrender.com",
     credentials: true
 }))
 
