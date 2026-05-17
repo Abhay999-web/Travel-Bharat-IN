@@ -13,7 +13,7 @@ const SinglePlace = () => {
     const fetchPlaceDetails = async () => {
       try {
     
-        const res = await axios.get(`http://localhost:3000/api/places/${id}`);
+        const res = await axios.get(`https://travel-bharat-in.onrender.com/api/places/${id}`);
         
         if (res.data && res.data.data) {
           setPlace(res.data.data);

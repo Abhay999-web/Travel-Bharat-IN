@@ -17,7 +17,7 @@ const StatePlaces = () => {
   useEffect(() => {
     const fetchPlaces = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/api/places/state/${stateId}`);
+        const response = await axios.get(`https://travel-bharat-in.onrender.com/api/places/state/${stateId}`);
         const data = response.data.data || [];
         setPlacesList(data);
         

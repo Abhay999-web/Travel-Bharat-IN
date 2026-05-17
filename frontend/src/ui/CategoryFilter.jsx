@@ -24,8 +24,8 @@ const CategoryFilter = forwardRef((props, ref) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const placesRes = await axios.get("http://localhost:3000/api/places");
-        const statesRes = await axios.get("http://localhost:3000/api/states/all-states");
+        const placesRes = await axios.get("https://travel-bharat-in.onrender.com/api/places");
+        const statesRes = await axios.get("https://travel-bharat-in.onrender.com/api/states/all-states");
 
         setPlaces(placesRes.data.data || []);
         setStatesList(statesRes.data.data || []);

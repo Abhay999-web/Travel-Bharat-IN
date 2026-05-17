@@ -11,7 +11,7 @@ const States = () => {
     const fetchStates = async () => {
       try {
         
-        const response = await axios.get('http://localhost:3000/api/states/all-states');
+        const response = await axios.get('https://travel-bharat-in.onrender.com/api/states/all-states');
         setStatesList(response.data.data || []);
         setLoading(false);
       } catch (error) {
