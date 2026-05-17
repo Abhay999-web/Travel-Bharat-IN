@@ -2,8 +2,9 @@
 
 **Travel Bharat IN** is a high-performance, dynamic, and production-ready Full-Stack web application built using the **MERN Stack**. Moving away from static mock arrays, this platform connects seamlessly to a cloud database to deliver real-time destination metadata, rich content rendering, and robust multi-filter queries.
 
-🔗 **Live Frontend URL:** [Paste_Your_Render_Frontend_URL_Here]  
-🔗 **Live Backend API:** [Paste_Your_Render_Backend_URL_Here]
+🔗 **Live Website UI:** [https://travel-bharat-in-1.onrender.com]
+🔗 **Production API Endpoint:** [https://travel-bharat-in.onrender.com]
+🔗 **Active Data Endpoint (Verification):** [https://travel-bharat-in.onrender.com/api/states/all-states]
 
 ---
 

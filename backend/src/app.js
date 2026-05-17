@@ -12,6 +12,16 @@ app.use(cors({
 }))
 
 
+app.get("/", (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: "Travel Bharat API Server is running successfully.",
+        timestamp: new Date().toISOString(),
+        environment: "production"
+    });
+});
+
+
 
 app.use(express.json())
 
