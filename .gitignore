@@ -1,0 +1,35 @@
+# ==========================================
+# 1. BACKEND SENSITIVE DATA & DEPENDENCIES
+# ==========================================
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# ==========================================
+# 2. FRONTEND SENSITIVE DATA & BUILDS
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+frontend/.env.development.local
+
+# ==========================================
+# 3. GLOBAL SYSTEM & IDE CONFIGS
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+
